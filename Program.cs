@@ -28,13 +28,13 @@ for (int i = 0; i < array.Length; i++)
 }
 
 string[] result = new string[count];
-count = 0;
+int j = 0;
 for (int i = 0; i < array.Length; i++)
 {
     if (array[i].Length <= 3)
     {
-        result[count] = array[i];
-        count++;
+        result[j] = array[i];
+        j++;
     }
 }
 
